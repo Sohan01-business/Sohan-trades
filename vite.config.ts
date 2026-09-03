@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 // (Capacitor serves it from a local scheme, not a domain root).
 export default defineConfig({
   plugins: [react()],
-  base: '/trades-journal/',
+  base: '/Sohan-trades/',
   build: {
     outDir: 'dist',
     sourcemap: false
