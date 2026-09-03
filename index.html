@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0E1116" />
+    <meta name="description" content="TradeVault — an offline trading journal. Your data stays on this device." />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="./icons/icon.svg" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <title>TradeVault</title>
+    <style>
+      /* Prevents a white flash before Tailwind's CSS loads */
+      html, body { background: #0E1116; }
+    </style>
+  </head>
+  <body class="bg-base text-ink">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
